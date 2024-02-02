@@ -39,15 +39,24 @@ ul, ol, menu {
 header {
     background-color: #265ee9;
     padding: 20px 0;
+    color: white;
 }
 
 nav {
     justify-content: space-between;
 }
 
-nav ul {
+nav .col-60 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+}
+
+.col-60 a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .container nav {
@@ -133,14 +142,6 @@ footer .row-footer-second {
 .debug .col-33 {
     padding: 5px;
     border: 1px solid black;
-}
-
-.debug li {
-    display: contents;
-}
-
-.debug .nav {
-    background-color: burlywood;
 }
 
 .debug nav {
