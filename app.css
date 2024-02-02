@@ -61,8 +61,26 @@ nav .col-60 {
     text-decoration: none;
 }
 
-nav a {
+nav div {
     display: flex;
+}
+
+/* Design bottoni */
+
+.button {
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
 }
 
 /* Specifiche main */
