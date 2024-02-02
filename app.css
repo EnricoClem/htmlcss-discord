@@ -130,7 +130,7 @@ nav div {
 
 .container-pres {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
     min-height: 400px;
     color: rgb(34, 34, 34);
     display: flex;
@@ -152,16 +152,28 @@ nav div {
     line-height: 25px;
 }
 
+.section-gray {
+    background-color: #cccccc;
+}
+
+.wave-division {
+    background-image: url(./img/wave.svg);
+    background-size: contain;
+    width: auto;
+    height: 200px;
+    opacity: 20%;
+}
+
+main section {
+    padding: 50px;
+}
+
 
 
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
     height: 800px;
-}
-
-main section {
-    padding: 40px;
 }
 
 /* Specifiche footer */
@@ -211,10 +223,6 @@ footer .row-footer-second {
 
 .debug .container-big {
     background-color: rgb(47, 122, 54);
-}
-
-.debug .section-gray {
-    background-color: lightgray;
 }
 
 .debug footer {
