@@ -67,10 +67,17 @@ nav div {
 
 /* Design bottoni */
 
-.button {
+.button-small {
     padding: 10px;
     border-radius: 20px;
     text-decoration: none;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .white {
@@ -79,7 +86,7 @@ nav div {
 }
 
 .black {
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     color: white;
 }
 
@@ -95,11 +102,31 @@ nav div {
     margin: 0 auto;
     min-height: 400px;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-intro .row {
+    margin: 20px 0;
 }
 
 .container-intro h1 {
     font-size: 60px;
 }
+
+.intro-text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container-intro .row a {
+    margin: 0 15px;
+}
+
+/* Sezioni di presentazione */
 
 .container-big {
     max-width: 1200px;
