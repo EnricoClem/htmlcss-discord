@@ -43,7 +43,9 @@ header {
 }
 
 nav {
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding: 10px;
+    align-items: center;
 }
 
 nav .col-60 {
@@ -59,8 +61,8 @@ nav .col-60 {
     text-decoration: none;
 }
 
-.container nav {
-    padding: 10px;
+nav a {
+    display: flex;
 }
 
 /* Specifiche main */
