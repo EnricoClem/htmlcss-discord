@@ -128,6 +128,32 @@ nav div {
 
 /* Sezioni di presentazione */
 
+.container-pres {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-pres h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.container-pres .col-40 {
+    padding: 0 5%;
+}
+
+.container-pres p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+
 .container-big {
     max-width: 1200px;
     margin: 0 auto;
@@ -136,11 +162,6 @@ nav div {
 
 main section {
     padding: 40px;
-}
-
-main .container {
-    height: 500px;
-    display: flex;
 }
 
 /* Specifiche footer */
@@ -188,19 +209,6 @@ footer .row-footer-second {
 
 /* DEBUG */
 
-.debug .col-20,
-.debug .col-40,
-.debug .col-60,
-.debug .col-16,
-.debug .col-33 {
-    padding: 5px;
-    border: 1px solid black;
-}
-
-.debug nav {
-    border: 1px solid black;
-}
-
 .debug .container-big {
     background-color: rgb(47, 122, 54);
 }
@@ -221,20 +229,12 @@ footer .row-footer-second {
     background-color: aquamarine;
 }
 
-.debug .col-40 {
-    background-color: lightpink;
-}
-
 .debug .col-33 {
     background-color: salmon;
 }
 
 .debug .col-16 {
     background-color: mediumseagreen;
-}
-
-.debug main .col-60 {
-    background-color: teal;
 }
 
 .debug .button-footer {
