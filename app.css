@@ -90,6 +90,11 @@ nav div {
     color: white;
 }
 
+.lightblue {
+    background-color: rgb(115, 166, 228);
+    color: white;
+}
+
 /* Sezione intro */
 
 .section-intro {
@@ -138,7 +143,7 @@ nav div {
     align-items: center;
 }
 
-.container-pres h2 {
+.main h2 {
     font-size: 45px;
     margin-bottom: 25px;
 }
@@ -175,9 +180,9 @@ main section {
     padding: 50px;
 }
 
+/* Ultimo blocco main CTA */
 
-
-.container-big {
+.container-cta {
     max-width: 1200px;
     margin: 0 auto;
     height: 800px;
@@ -227,10 +232,6 @@ footer .row-footer-second {
 
 
 /* DEBUG */
-
-.debug .container-big {
-    background-color: rgb(47, 122, 54);
-}
 
 .debug footer {
     background-color: darkslategray;
