@@ -83,17 +83,22 @@ nav div {
     color: white;
 }
 
-/* Specifiche main */
+/* Sezione intro */
 
-.section-blue {
+.section-intro {
     background-image: url(./img/jumbo.png);
     background-size: cover;
 }
 
-.container-small {
+.container-intro {
     max-width: 1000px;
     margin: 0 auto;
     min-height: 400px;
+    color: white;
+}
+
+.container-intro h1 {
+    font-size: 60px;
 }
 
 .container-big {
@@ -153,6 +158,7 @@ footer .row-footer-second {
 
 
 
+
 /* DEBUG */
 
 .debug .col-20,
@@ -166,10 +172,6 @@ footer .row-footer-second {
 
 .debug nav {
     border: 1px solid black;
-}
-
-.debug .container-small {
-    background-color: lightseagreen;
 }
 
 .debug .container-big {
