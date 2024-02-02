@@ -164,6 +164,13 @@ nav div {
     opacity: 20%;
 }
 
+.wave-inverted {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transform: rotate(180deg);
+}
+
 main section {
     padding: 50px;
 }
