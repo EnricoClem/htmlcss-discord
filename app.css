@@ -211,7 +211,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* Specifiche footer */
+/* Specifiche footer primo blocco */
 
 footer {
     background-color: #23272a;
@@ -249,6 +249,26 @@ footer h3 {
     border: 0;
     color: white;
 }
+
+.foot-list {
+    font-size: 20px;
+}
+
+.foot-list h4 {
+    color: #7289da;
+}
+
+.foot-list h4,
+.foot-list li {
+    margin: 10px 0;
+}
+
+.foot-list a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Specifiche footer secondo blocco */
 
 footer .row-footer-second {
     margin-top: 40px;
