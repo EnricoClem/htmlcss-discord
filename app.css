@@ -213,12 +213,24 @@ h2 {
 
 /* Specifiche footer */
 
-footer .row-footer-first {
+footer {
+    background-color: #23272a;
+}
+
+footer .foot-info {
     padding-top: 10px;
     padding-bottom: 40px;
     height: 500px;
     border: 0;
 } 
+
+.language .row {
+    align-content: center;
+}
+
+.footer-info select {
+    
+}
 
 footer .row-footer-second {
     margin-top: 40px;
@@ -226,6 +238,16 @@ footer .row-footer-second {
     justify-content: space-between;
     align-items: center;
 } 
+
+/* Impostazioni icone social con fonte google icon */
+
+.fa {
+    font-size: 40px;
+    width: 50px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
 
 /* Impostazioni colonne */
 
@@ -256,9 +278,7 @@ footer .row-footer-second {
 
 /* DEBUG */
 
-.debug footer {
-    background-color: darkslategray;
-}
+
 
 .debug .footer-first {
     border-bottom: 2px solid gray;
