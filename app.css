@@ -218,18 +218,36 @@ footer {
 }
 
 footer .foot-info {
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 40px;
-    height: 500px;
-    border: 0;
-} 
+    border-bottom: 1px solid #7289da;
+}
+
+footer .col-33 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer h3 {
+    color: #7289da;
+    font-size: 40px;
+}
 
 .language .row {
     align-content: center;
 }
 
-.footer-info select {
-    
+.language img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.language select {
+    background-color: #23272a;
+    border: 0;
+    color: white;
 }
 
 footer .row-footer-second {
@@ -242,8 +260,6 @@ footer .row-footer-second {
 /* Impostazioni icone social con fonte google icon */
 
 .fa {
-    font-size: 40px;
-    width: 50px;
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -277,24 +293,6 @@ footer .row-footer-second {
 
 
 /* DEBUG */
-
-
-
-.debug .footer-first {
-    border-bottom: 2px solid gray;
-}
-
-.debug footer .row-footer-second {
-    background-color: aquamarine;
-}
-
-.debug .col-33 {
-    background-color: salmon;
-}
-
-.debug .col-16 {
-    background-color: mediumseagreen;
-}
 
 .debug .button-footer {
     background-color: darkviolet;
